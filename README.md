@@ -1,2 +1,2 @@
 # dental-clinic
-dental-clinic-as-salam.netlify.app
+https://dental-clinic-as-salam.netlify.app
