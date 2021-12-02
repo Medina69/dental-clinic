@@ -1,0 +1,363 @@
+.service-page {
+  padding: 50px;
+}
+
+.service-page .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-page .header h1 {
+  font-size: 50px;
+}
+
+.service-page .header .exit .fas {
+  display: none;
+}
+
+.service-page .section {
+  width: 100%;
+}
+
+.service-page .section .block_text_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-page .section .big-img {
+  width: 700px !important;
+  height: 400px;
+}
+
+.service-page .section span {
+  width: 100%;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.service-page .end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.service-page .end-left {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-page .end-left a:nth-child(3) button {
+  background: red;
+}
+
+.service-page .end a:nth-child(2) button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media (max-width: 1366px) {
+  .service-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-page .header h1 {
+    font-size: 30px;
+  }
+  .service-page .section {
+    width: 100%;
+  }
+  .service-page .section .block_text_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .service-page .section .block_text_img .big-img {
+    width: 500px !important;
+    height: 200px;
+  }
+  .service-page .section span {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .service-page .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .service-page .end-left {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-page .end-left a:nth-child(3) button {
+    background: red;
+  }
+  .service-page .end a:nth-child(2) button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media (max-width: 1024px) {
+  .service-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-page .header h1 {
+    font-size: 30px;
+  }
+  .service-page .section {
+    width: 100%;
+  }
+  .service-page .section .block_text_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .service-page .section .block_text_img .big-img {
+    width: 500px !important;
+    height: 200px;
+  }
+  .service-page .section span {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .service-page .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .service-page .end-left {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-page .end-left a:nth-child(3) button {
+    background: red;
+  }
+  .service-page .end a:nth-child(2) button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .service-page .header h1 {
+    font-size: 30px;
+  }
+  .service-page .section {
+    width: 100%;
+  }
+  .service-page .section .block_text_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .service-page .section .block_text_img .big-img {
+    width: 500px !important;
+    height: 200px;
+  }
+  .service-page .section span {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .service-page .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .service-page .end-left {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-page .end-left a:nth-child(3) button {
+    padding: 10px;
+    background: red;
+    font-size: 15px !important;
+    border-radius: 3px;
+  }
+  .service-page .end a:nth-child(2) button {
+    padding: 10px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 100px;
+    font-size: 15px;
+    text-align: center !important;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 360px) {
+  .service-page .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service-page .header h1 {
+    font-size: 20px;
+  }
+  .service-page .header .exit h2 {
+    background-color: #63cbfe;
+    margin-left: -150px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-top: -50px;
+    border-radius: 3px;
+  }
+  .service-page .section {
+    width: 100%;
+  }
+  .service-page .section .block_text_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-page .section .block_text_img .big-img {
+    width: 300px !important;
+    height: 200px;
+  }
+  .service-page .section span {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 10px;
+    display: inline-block;
+  }
+  .service-page .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .service-page .end-left {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .service-page .end-left a:nth-child(3) button {
+    padding: 10px;
+    background: red;
+    font-size: 15px !important;
+    border-radius: 3px;
+  }
+  .service-page .end a:nth-child(2) button {
+    padding: 10px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 100px;
+    font-size: 15px;
+    text-align: center !important;
+    border-radius: 3px;
+  }
+}
+/*# sourceMappingURL=service.css.map */

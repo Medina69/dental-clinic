@@ -1,0 +1,349 @@
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section3 #carouselExampleControls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1:nth-child(5) {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.section-1 {
+  background: rgba(99, 203, 254, 0.5);
+  z-index: -1;
+  margin-bottom: 100px;
+}
+
+.section-1 .apparatus {
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-1 .apparatus img {
+  width: 80%;
+  height: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section-1 .apparatus .small-pictures {
+  margin-top: 30px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.section-1 .apparatus .small-pictures img {
+  width: 270px;
+}
+
+@media (max-width: 1366px) {
+  .section-1 {
+    background: rgba(99, 203, 254, 0.5);
+    z-index: -1;
+  }
+  .section-1 .apparatus {
+    padding: 50px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: center;
+  }
+  .section-1 .apparatus img {
+    width: 80%;
+    height: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-1 .apparatus .small-pictures {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-1 .apparatus .small-pictures img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section3 img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header-bottom .rectangle,
+  .header-bottom .doctor {
+    display: none;
+  }
+  .header-top {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #616060;
+    text-align: center;
+  }
+  .header-top h1 {
+    font-size: 50px;
+  }
+  .header-top h4 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  h1:nth-child(5) {
+    display: inline-block;
+  }
+  .section-1 {
+    margin-top: -100px;
+    background: rgba(99, 203, 254, 0.5);
+    z-index: -1;
+    width: 750px;
+  }
+  .section-1 .apparatus {
+    padding: 50px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: center;
+  }
+  .section-1 .apparatus img {
+    width: 80%;
+    height: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-1 .apparatus .small-pictures {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-1 .apparatus .small-pictures img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 360px;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header-bottom .rectangle,
+  .header-bottom .doctor {
+    display: none;
+  }
+  .header-top {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #616060;
+    text-align: center;
+  }
+  .header-top h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .header-top h4 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .section3 img {
+    width: 150px;
+  }
+  h1:nth-child(5) {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: -150px;
+  }
+  .section-1 {
+    background: rgba(99, 203, 254, 0.5);
+    z-index: -1;
+    width: 100%;
+  }
+  .section-1 .apparatus {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: center;
+  }
+  .section-1 .apparatus img {
+    width: 80%;
+    height: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section-1 .apparatus .small-pictures {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-1 .apparatus .small-pictures img {
+    width: 50px;
+  }
+}
+/*# sourceMappingURL=second.css.map */

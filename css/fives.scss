@@ -1,0 +1,341 @@
+.sign-up {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    .contact-bottom {
+        width: 1235px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        .male-female {
+            border: 1px solid #616060;
+            display: flex;
+            width: 400px;
+            height: 80px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 5px;
+            h1 {
+                font-size: 20px;
+            }
+            .checkbox {
+                width: 400px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .input-p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -15px;
+                    .check-input {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        .conf {
+            width: 300px;
+            text-align: center;
+            color: #c4c4c4;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+                color: #616060;
+                a {
+                    color: #00a3ff;
+                }
+            }
+            a {
+                transition: 0.2s;
+                color: #c4c4c4;
+                text-decoration-line: underline;
+            }
+        }
+    }
+    h1:nth-child(1) {
+        font-size: 50px;
+    }
+    h2 {
+        font-weight: 100;
+    }
+    input {
+        border: 1px solid #616060;
+        width: 400px;
+        height: 80px;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    a {
+        button {
+            width: 300px;
+            margin-top: 50px;
+        }
+    }
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1366px) {
+    .sign-up {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        .contact-bottom {
+            width: 940px !important;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            .male-female {
+                margin: 5px;
+                border: 1px solid #616060;
+                display: flex;
+                width: 300px;
+                height: 80px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h1 {
+                    font-size: 15px;
+                }
+                .checkbox {
+                    width: 200px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .input-p {
+                        display: flex;
+                        justify-content: center;
+                        .check-input {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+
+            .conf {
+                width: 300px;
+                text-align: center;
+                color: #c4c4c4;
+                cursor: pointer;
+                transition: 0.2s;
+                &:hover {
+                    color: #616060;
+                    a {
+                        color: #00a3ff;
+                    }
+                }
+
+                a {
+                    transition: 0.2s;
+                    color: #c4c4c4;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+        h1:nth-child(1) {
+            font-size: 50px;
+        }
+        h2 {
+            font-weight: 100;
+        }
+        input {
+            border: 1px solid #616060;
+            width: 300px;
+            height: 80px;
+            font-size: 20px;
+            margin: 5px;
+        }
+        a {
+            button {
+                width: 300px;
+                margin-top: 50px;
+            }
+        }
+        margin-bottom: 100px;
+    }
+    //!Sign-up/Log-in
+}
+
+@media (max-width: 768px) {
+    .section-sign-up {
+        width: 750px;
+        .sign-up {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: column;
+            margin-left: -100px;
+            .contact-bottom {
+                width: 750px !important;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-align: center;
+                .male-female {
+                    margin: 5px;
+                    border: 1px solid #616060;
+                    display: flex;
+                    width: 300px;
+                    height: 80px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    h1 {
+                        font-size: 15px;
+                    }
+                    .checkbox {
+                        width: 200px;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        .input-p {
+                            display: flex;
+                            justify-content: center;
+                            .check-input {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .conf {
+                    width: 300px;
+                    text-align: center;
+                    color: #c4c4c4;
+                    cursor: pointer;
+                    transition: 0.2s;
+                    &:hover {
+                        color: #616060;
+                        a {
+                            color: #00a3ff;
+                        }
+                    }
+
+                    a {
+                        transition: 0.2s;
+                        color: #c4c4c4;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+            h1:nth-child(1) {
+                font-size: 50px;
+            }
+            h2 {
+                font-weight: 100;
+            }
+            input {
+                border: 1px solid #616060;
+                width: 300px;
+                height: 80px;
+                font-size: 20px;
+                margin: 5px;
+            }
+            a {
+                button {
+                    width: 300px;
+                    margin-top: 50px;
+                }
+            }
+            margin-bottom: 100px;
+        }
+        //!Sign-up/Log-in
+    }
+}
+
+@media (max-width: 360px) {
+    .section-sign-up {
+        text-align: center !important;
+        align-items: center;
+        width: 300px;
+        .sign-up {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start !important;
+            text-align: center !important;
+            margin-left: 0;
+            .h1 {
+                font-size: 25px !important;
+                text-align: flex-end !important;
+            }
+            h2 {
+                font-weight: 100;
+                font-size: 15px;
+                text-align: center;
+            }
+            input {
+                border: none;
+                border-bottom: 1px solid #616060;
+                width: 250px;
+                height: 50px;
+                font-size: 20px;
+                align-items: flex-start;
+            }
+            .contact-bottom {
+                width: 300px !important;
+                display: flex;
+                flex-direction: column;
+                border: none;
+                align-items: start;
+                .male-female {
+                    display: flex;
+                    align-items: start;
+                    border: none;
+                    h1 {
+                        font-size: 15px;
+                    }
+                    .checkbox {
+                        width: 250px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        text-align: center;
+                        border: none;
+                        .input-p {
+                            display: flex;
+                            p {
+                                align-self: center;
+                            }
+                            .check-input {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+                .btn:nth-child(2) {
+                    align-self: center;
+                    padding: 10px 10px;
+                    border: none;
+                    background: #00a3ff;
+                    opacity: 65%;
+                    color: white;
+                    font-size: 15px;
+                    font-weight: 700;
+                    border-radius: 5px;
+                    align-items: end;
+                }
+            }
+            margin-bottom: 100px;
+        }
+        //!Sign-up/Log-in
+    }
+}
+//! Media for phone
